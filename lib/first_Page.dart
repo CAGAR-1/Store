@@ -9,8 +9,7 @@ class First_Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      home: Scaffold(
+    return  Scaffold(
       body: Stack(
         children: [
           Positioned.fill(
@@ -86,6 +85,6 @@ class First_Page extends StatelessWidget {
           )
         ],
       ),
-     ) );
+      );
   }
 }

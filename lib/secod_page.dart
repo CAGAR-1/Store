@@ -7,6 +7,7 @@ import 'package:shoe_store/third_screen.dart';
 class second_screen extends StatefulWidget {
   const second_screen({super.key});
 
+
   @override
   State<second_screen> createState() => _second_screenState();
 }
@@ -109,6 +110,7 @@ class _second_screenState extends State<second_screen> {
                             onTap: () {
                               setState(() {
                                 topicchoosen = names[index];
+                              
                               });
                             },
                             child: Container(
